@@ -43,7 +43,7 @@ ava.encyclopedia.Form = new function (){
             showField("ava_datefrom");
         }
     }
-
+    // ava.encyclopedia.Form.OnLoad -> funzione passata 
     _self.OnLoad = function (executionContext) {
         setContext(executionContext);
          //Legge il valore del campo acquisito
